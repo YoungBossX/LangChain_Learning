@@ -20,6 +20,7 @@ chat_model = ChatOpenAI(
 # prompt = PromptTemplate.from_template(
 #     "你需要根据会话历史回应用户问题。对话历史：{chat_history}，用户提问：{input}，请回答"
 # )
+
 prompt = ChatPromptTemplate.from_messages(
     [
         ("system", "你需要根据会话历史回应用户问题。对话历史："),

@@ -113,3 +113,17 @@ clap-htsat-unfused
 *.db
 **/*.db
 .env
+
+# data文件夹
+data/
+
+# Chroma 数据库
+chroma_db/
+**/chroma_db/
+
+# md5 记录文件
+md5.text
+**/md5.text
+
+# prompts 文件夹
+prompts/
